@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ARQuests_in_pocket/precache-manifest.0692280dea4a0fe77644d823a4c88534.js"
+  "/ARQuests_in_pocket/precache-manifest.6bd5497690ad924e6995ea9879b57710.js"
 );
 
 self.addEventListener('message', (event) => {
