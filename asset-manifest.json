@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ARQuests_in_pocket/static/css/main.1a8d6906.chunk.css",
-    "main.js": "/ARQuests_in_pocket/static/js/main.46555f30.chunk.js",
-    "main.js.map": "/ARQuests_in_pocket/static/js/main.46555f30.chunk.js.map",
+    "main.js": "/ARQuests_in_pocket/static/js/main.22340ceb.chunk.js",
+    "main.js.map": "/ARQuests_in_pocket/static/js/main.22340ceb.chunk.js.map",
     "runtime-main.js": "/ARQuests_in_pocket/static/js/runtime-main.0b4f3700.js",
     "runtime-main.js.map": "/ARQuests_in_pocket/static/js/runtime-main.0b4f3700.js.map",
     "static/css/2.266626f9.chunk.css": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css",
-    "static/js/2.9c00deec.chunk.js": "/ARQuests_in_pocket/static/js/2.9c00deec.chunk.js",
-    "static/js/2.9c00deec.chunk.js.map": "/ARQuests_in_pocket/static/js/2.9c00deec.chunk.js.map",
+    "static/js/2.ba97cfa8.chunk.js": "/ARQuests_in_pocket/static/js/2.ba97cfa8.chunk.js",
+    "static/js/2.ba97cfa8.chunk.js.map": "/ARQuests_in_pocket/static/js/2.ba97cfa8.chunk.js.map",
     "index.html": "/ARQuests_in_pocket/index.html",
-    "precache-manifest.3a8b63664298cee57fe1988ab9969d13.js": "/ARQuests_in_pocket/precache-manifest.3a8b63664298cee57fe1988ab9969d13.js",
+    "precache-manifest.36053818c358858a039bb1d9a2bee015.js": "/ARQuests_in_pocket/precache-manifest.36053818c358858a039bb1d9a2bee015.js",
     "service-worker.js": "/ARQuests_in_pocket/service-worker.js",
     "static/css/2.266626f9.chunk.css.map": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css.map",
     "static/css/main.1a8d6906.chunk.css.map": "/ARQuests_in_pocket/static/css/main.1a8d6906.chunk.css.map",
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.0b4f3700.js",
     "static/css/2.266626f9.chunk.css",
-    "static/js/2.9c00deec.chunk.js",
+    "static/js/2.ba97cfa8.chunk.js",
     "static/css/main.1a8d6906.chunk.css",
-    "static/js/main.46555f30.chunk.js"
+    "static/js/main.22340ceb.chunk.js"
   ]
 }
