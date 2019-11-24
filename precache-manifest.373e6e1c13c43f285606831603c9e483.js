@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bccfec639da40a8bc03eb7e2404b0b2",
+    "revision": "089b1dc0955559ee37f305f129520138",
     "url": "/ARQuests_in_pocket/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css"
   },
   {
-    "revision": "f55dc0075c9e0cc3802e",
+    "revision": "ba98726f9a0d1ecc6e62",
     "url": "/ARQuests_in_pocket/static/css/main.1a8d6906.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ARQuests_in_pocket/static/js/2.ba97cfa8.chunk.js"
   },
   {
-    "revision": "f55dc0075c9e0cc3802e",
-    "url": "/ARQuests_in_pocket/static/js/main.22340ceb.chunk.js"
+    "revision": "ba98726f9a0d1ecc6e62",
+    "url": "/ARQuests_in_pocket/static/js/main.84473d16.chunk.js"
   },
   {
     "revision": "2a95411f975160613962",
