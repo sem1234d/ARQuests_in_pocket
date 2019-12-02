@@ -1,0 +1,89 @@
+.App {
+  position:relative;
+  top:-100vh;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+div[class^="information"]{
+  transition-duration:0.7s;
+ 
+}
+.information_false{
+z-index:0;
+opacity:0;
+transition-duration:1s;
+position: absolute;
+width:100vw;
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+font-weight: 800;
+font-size: 1.5rem;
+}
+.information_true{
+z-index:1000000000;
+background: black;
+opacity:0.7;
+position: absolute;
+width:100vw;
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+font-weight: 800;
+font-size: 1.5rem;
+
+
+
+  transition-duration: 1s;
+}
+#button{
+  z-index:1000000000;
+}
+#root{
+width: 100vw;
+height:100vh;
+background-size: cover;
+}
+.information_true .placeName{
+  color:white;
+  opacity:1;
+}
+.information_false.placeName{
+  opacity:0;
+}
+.information_true ~ #shotting{
+  opacity:0;
+  border-radius: 50%;
+  border: white solid 0.7vh;
+  height:7vh;
+  width:7vh;
+  z-index: 104000;
+  position: absolute;
+  top:87.5vh;
+  background-color: gray;
+  transition:0.7s;
+}
+.information_false ~ #shotting{
+  opacity:1;
+  border-radius: 50%;
+  border: white solid 0.7vh;
+  height:7vh;
+  width:7vh;
+  z-index: 104000;
+  position: absolute;
+  top:87.5vh;
+  background-color: gray;
+  transition:0.7s;
+}
+
+
+
+canvas{
+  width:calc(100vw);
+  height:calc(100vh);
+  z-index:102000
+}
