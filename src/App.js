@@ -64,6 +64,10 @@ constructor(props){
   this.predict = this.predict.bind(this);
 }
 
+componentDidMount(e){
+  this.init();
+}
+
  random=()=>{
   return Math.floor(Math.random() * Math.floor(maxPredictions));
 }
@@ -117,7 +121,7 @@ create_all=(prediction)=>{
 async loop() {
     if(isRunning == true){
     webcam.update();
-    this.predict();
+    //this.predict();
     window.requestAnimationFrame(this.loop);
   }
 }
@@ -133,7 +137,7 @@ shot=()=>{
     const classPrediction =
           prediction[i].className + ": " + prediction[i].probability.toFixed(2);
        console.log(classPrediction);
-     if(prediction[i].probability.toFixed(3) >= 0.999&&prediction[i].className != 'other'){
+     if(prediction[i].probability.toFixed(2) >= 0.89&&prediction[i].className != 'other'){
        this.setState({place:prediction[i].className});
        this.sucsess();
      }
@@ -163,8 +167,7 @@ document.getElementById("webcam-container").appendChild(webcam.canvas);
 }
 
 handleClick(e){
-  this.init();
-
+  this.shot();
 }
 
 
@@ -182,7 +185,7 @@ render() {
     <div id="shotting" onClick={this.handleClick} ></div>
 
 </div>
-<canvas id="canvas"/></>
+<canvas id="canvas" style={{display:'none'}}/></>
   );
 }}
 export default App;
