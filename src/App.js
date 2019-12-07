@@ -39,7 +39,7 @@ var find = true;
 var faceID;
 var level;
 
-const URL = "https://teachablemachine.withgoogle.com/models/LaTJd2ug/";
+const URL = "https://teachablemachine.withgoogle.com/models/yaMiK4Ex/";
 
 
    let model, webcam, labelContainer, maxPredictions;
@@ -96,7 +96,7 @@ create_all=(prediction)=>{
    console.log(faceID);
    console.log(all);
     // Convenience function to setup a webcam
-    const flip = true; // whether to flip the webcam
+    const flip = false; // whether to flip the webcam
     let height1=$('#webcam-container').height();
     let width1=$('#webcam-container').width();
     if(height1>width1){
@@ -109,7 +109,8 @@ create_all=(prediction)=>{
    }
     await webcam.setup(); // request access to the webcam
     await webcam.play();
-
+    let spinner=document.getElementById('spinner');
+    spinner.style.display = 'none';
     window.requestAnimationFrame(this.loop);
 
 
@@ -185,6 +186,7 @@ render() {
     <div id="shotting" onClick={this.handleClick} ></div>
 
 </div>
+<div class="spinner" id="spinner"></div>
 <canvas id="canvas" style={{display:'none'}}/></>
   );
 }}

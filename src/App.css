@@ -8,7 +8,7 @@
 }
 div[class^="information"]{
   transition-duration:0.7s;
- 
+
 }
 .information_false{
 z-index:0;
@@ -80,6 +80,27 @@ background-size: cover;
   transition:0.7s;
 }
 
+.spinner {
+    position: absolute;
+    z-index: 10000000000;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1vh solid #D836C4	;
+    border-top-color: #D4FA3E;
+    border-bottom-color:#D4FA3E;
+  animation-name: kl;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+
+
+}
+@keyframes kl{
+   to{transform: rotateZ(360deg);}
+}
 
 
 canvas{
