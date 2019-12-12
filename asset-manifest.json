@@ -6,10 +6,10 @@
     "runtime-main.js": "/ARQuests_in_pocket/static/js/runtime-main.0b4f3700.js",
     "runtime-main.js.map": "/ARQuests_in_pocket/static/js/runtime-main.0b4f3700.js.map",
     "static/css/2.266626f9.chunk.css": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css",
-    "static/js/2.ff9b4bef.chunk.js": "/ARQuests_in_pocket/static/js/2.ff9b4bef.chunk.js",
-    "static/js/2.ff9b4bef.chunk.js.map": "/ARQuests_in_pocket/static/js/2.ff9b4bef.chunk.js.map",
+    "static/js/2.49d3c938.chunk.js": "/ARQuests_in_pocket/static/js/2.49d3c938.chunk.js",
+    "static/js/2.49d3c938.chunk.js.map": "/ARQuests_in_pocket/static/js/2.49d3c938.chunk.js.map",
     "index.html": "/ARQuests_in_pocket/index.html",
-    "precache-manifest.e8eb5be534baa69c46534996acb0caae.js": "/ARQuests_in_pocket/precache-manifest.e8eb5be534baa69c46534996acb0caae.js",
+    "precache-manifest.46d38334d86ab7ecc69883bb8ec82c84.js": "/ARQuests_in_pocket/precache-manifest.46d38334d86ab7ecc69883bb8ec82c84.js",
     "service-worker.js": "/ARQuests_in_pocket/service-worker.js",
     "static/css/2.266626f9.chunk.css.map": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css.map",
     "static/css/main.63d9dbbe.chunk.css.map": "/ARQuests_in_pocket/static/css/main.63d9dbbe.chunk.css.map",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0b4f3700.js",
     "static/css/2.266626f9.chunk.css",
-    "static/js/2.ff9b4bef.chunk.js",
+    "static/js/2.49d3c938.chunk.js",
     "static/css/main.63d9dbbe.chunk.css",
     "static/js/main.67d85abd.chunk.js"
   ]
