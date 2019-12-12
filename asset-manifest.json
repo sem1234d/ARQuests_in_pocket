@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ARQuests_in_pocket/static/css/main.6162da7c.chunk.css",
-    "main.js": "/ARQuests_in_pocket/static/js/main.a61e0101.chunk.js",
-    "main.js.map": "/ARQuests_in_pocket/static/js/main.a61e0101.chunk.js.map",
+    "main.css": "/ARQuests_in_pocket/static/css/main.63d9dbbe.chunk.css",
+    "main.js": "/ARQuests_in_pocket/static/js/main.67d85abd.chunk.js",
+    "main.js.map": "/ARQuests_in_pocket/static/js/main.67d85abd.chunk.js.map",
     "runtime-main.js": "/ARQuests_in_pocket/static/js/runtime-main.0b4f3700.js",
     "runtime-main.js.map": "/ARQuests_in_pocket/static/js/runtime-main.0b4f3700.js.map",
     "static/css/2.266626f9.chunk.css": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css",
-    "static/js/2.78a14f89.chunk.js": "/ARQuests_in_pocket/static/js/2.78a14f89.chunk.js",
-    "static/js/2.78a14f89.chunk.js.map": "/ARQuests_in_pocket/static/js/2.78a14f89.chunk.js.map",
+    "static/js/2.ff9b4bef.chunk.js": "/ARQuests_in_pocket/static/js/2.ff9b4bef.chunk.js",
+    "static/js/2.ff9b4bef.chunk.js.map": "/ARQuests_in_pocket/static/js/2.ff9b4bef.chunk.js.map",
     "index.html": "/ARQuests_in_pocket/index.html",
-    "precache-manifest.657c248cddb63ca57108d07ea148311d.js": "/ARQuests_in_pocket/precache-manifest.657c248cddb63ca57108d07ea148311d.js",
+    "precache-manifest.e8eb5be534baa69c46534996acb0caae.js": "/ARQuests_in_pocket/precache-manifest.e8eb5be534baa69c46534996acb0caae.js",
     "service-worker.js": "/ARQuests_in_pocket/service-worker.js",
     "static/css/2.266626f9.chunk.css.map": "/ARQuests_in_pocket/static/css/2.266626f9.chunk.css.map",
-    "static/css/main.6162da7c.chunk.css.map": "/ARQuests_in_pocket/static/css/main.6162da7c.chunk.css.map",
+    "static/css/main.63d9dbbe.chunk.css.map": "/ARQuests_in_pocket/static/css/main.63d9dbbe.chunk.css.map",
     "static/media/cof.png": "/ARQuests_in_pocket/static/media/cof.88fc8da6.png",
     "static/media/logo.svg": "/ARQuests_in_pocket/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0b4f3700.js",
     "static/css/2.266626f9.chunk.css",
-    "static/js/2.78a14f89.chunk.js",
-    "static/css/main.6162da7c.chunk.css",
-    "static/js/main.a61e0101.chunk.js"
+    "static/js/2.ff9b4bef.chunk.js",
+    "static/css/main.63d9dbbe.chunk.css",
+    "static/js/main.67d85abd.chunk.js"
   ]
 }
